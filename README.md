@@ -29,7 +29,11 @@ Choose a roll file:
 Enter 1 for rolls_1.json
 Enter 2 for rolls_2.json
 
+----
+
 ##  Project Structure
+
+
 woven_monopoly/
 ├── main.rb            # Entry point - runs the game
 ├── data/
@@ -42,5 +46,6 @@ woven_monopoly/
 │   ├── player.rb      # Player model
 │   └── property.rb    # Property model
 ├── README.md          # Project description (you are here!)
+
 
 Made by Shwetha Raghava as a personal learning project.
