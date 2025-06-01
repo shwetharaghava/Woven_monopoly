@@ -32,6 +32,8 @@ Enter 2 for rolls_2.json
 ----
 
 ##  Project Structure
+
+
 woven_monopoly/
 ├── main.rb            # Entry point - runs the game
 ├── data/
