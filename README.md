@@ -25,7 +25,7 @@ It’s a simple command-line app where the dice rolls are set ahead of time, the
 
 2. Clone the project :  
 
-    git clone https://github.com/shwetha-raghava10/woven_monopoly.git  
+    git clone https://github.com/shwetharaghava/woven_monopoly.git  
 
     cd woven_monopoly  
 
