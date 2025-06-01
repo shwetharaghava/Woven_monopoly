@@ -29,11 +29,11 @@ It’s a simple command-line app where the dice rolls are set ahead of time, the
 
     cd woven_monopoly  
 
-3. In your terminal, run:
-    ruby main.rb
-Choose a roll file:
-Enter 1 for rolls_1.json
-Enter 2 for rolls_2.json
+3. In your terminal, run:  
+    ruby main.rb  
+Choose a roll file:  
+Enter 1 for rolls_1.json  
+Enter 2 for rolls_2.json  
 
 ##  Project Structure
 woven_monopoly/  
