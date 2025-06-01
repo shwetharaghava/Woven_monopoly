@@ -21,10 +21,14 @@ It’s a simple command-line app where the dice rolls are set ahead of time, the
 
 ##  How to Run
 
-1. Make sure you have **Ruby** installed
-2. Clone the project
-    git clone https://github.com/shwetha-raghava10/woven_monopoly.git
-    cd woven_monopoly
+1. Make sure you have **Ruby** installed  
+
+2. Clone the project :  
+
+    git clone https://github.com/shwetha-raghava10/woven_monopoly.git  
+
+    cd woven_monopoly  
+
 3. In your terminal, run:
     ruby main.rb
 Choose a roll file:
@@ -32,15 +36,15 @@ Enter 1 for rolls_1.json
 Enter 2 for rolls_2.json
 
 ##  Project Structure
-woven_monopoly/
-├── main.rb           
-├── README.md         
-├── data/
-│   ├── board.json    
-│   ├── rolls_1.json  
-│   └── rolls_2.json  
-├── lib/
-│   ├── board.rb     
-│   ├── game.rb       
-│   ├── player.rb      
-│   └── property.rb
+woven_monopoly/  
+├── main.rb            
+├── README.md           
+├── data/  
+│   ├── board.json      
+│   ├── rolls_1.json    
+│   └── rolls_2.json    
+├── lib/  
+│   ├── board.rb       
+│   ├── game.rb         
+│   ├── player.rb        
+│   └── property.rb  
