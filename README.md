@@ -33,16 +33,14 @@ Enter 2 for rolls_2.json
 
 ##  Project Structure
 woven_monopoly/
-├── main.rb            # Runs the game
-├── README.md          # This file
+├── main.rb           
+├── README.md         
 ├── data/
-│   ├── board.json     # Property layout
-│   ├── rolls_1.json   # First set of rolls
-│   └── rolls_2.json   # Second set of rolls
+│   ├── board.json    
+│   ├── rolls_1.json  
+│   └── rolls_2.json  
 ├── lib/
-│   ├── board.rb       # Loads board data
-│   ├── game.rb        # Main game logic
-│   ├── player.rb      # Player class
-│   └── property.rb    # Property class
-
-
+│   ├── board.rb     
+│   ├── game.rb       
+│   ├── player.rb      
+│   └── property.rb
