@@ -29,11 +29,7 @@ Choose a roll file:
 Enter 1 for rolls_1.json
 Enter 2 for rolls_2.json
 
-----
-
 ##  Project Structure
-
-
 woven_monopoly/
 ├── main.rb            # Entry point - runs the game
 ├── data/
