@@ -32,7 +32,8 @@ Enter 2 for rolls_2.json
 ----
 
 ##  Project Structure
-woven_monopoly/          
+woven_monopoly/
+├── main.rb            # Entry point - runs the game
 ├── data/
 │   ├── board.json     # Board layout
 │   ├── rolls_1.json   # First set of dice rolls
@@ -42,5 +43,4 @@ woven_monopoly/
 │   ├── game.rb        # Main game logic
 │   ├── player.rb      # Player model
 │   └── property.rb    # Property model
-├── main.rb            # Entry point - runs the game
 ├── README.md          # Project description (you are here!)
