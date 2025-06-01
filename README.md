@@ -5,7 +5,7 @@ It’s a simple command-line app where the dice rolls are set ahead of time, the
 
 ---
 
-## How to Play
+## Game Rules
 
 - 4 players: Peter, Billy, Charlotte, Sweedal
 - Everyone starts with **$16** and begins on **GO**
@@ -23,13 +23,26 @@ It’s a simple command-line app where the dice rolls are set ahead of time, the
 
 1. Make sure you have **Ruby** installed
 2. Clone the project
+    git clone https://github.com/shwetha-raghava10/woven_monopoly.git
+    cd woven_monopoly
 3. In your terminal, run:
-ruby main.rb
+    ruby main.rb
 Choose a roll file:
 Enter 1 for rolls_1.json
 Enter 2 for rolls_2.json
 
-----
-
 ##  Project Structure
+woven_monopoly/
+├── main.rb            # Runs the game
+├── README.md          # This file
+├── data/
+│   ├── board.json     # Property layout
+│   ├── rolls_1.json   # First set of rolls
+│   └── rolls_2.json   # Second set of rolls
+├── lib/
+│   ├── board.rb       # Loads board data
+│   ├── game.rb        # Main game logic
+│   ├── player.rb      # Player class
+│   └── property.rb    # Property class
+
 
