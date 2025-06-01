@@ -1,5 +1,5 @@
 class Player
-  attr_accessor :name, :memory, :position, :properties, :bankrupt
+  attr_accessor :name, :money, :position, :properties, :bankrupt
 
   def initialize(name)
     @name = name
