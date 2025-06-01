@@ -42,3 +42,5 @@ woven_monopoly/
 │   ├── player.rb      # Player model
 │   └── property.rb    # Property model
 ├── README.md          # Project description (you are here!)
+
+Made by Shwetha Raghava as a personal learning project.
