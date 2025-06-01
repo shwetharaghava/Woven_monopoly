@@ -124,14 +124,17 @@ class Game
   end
 
   def show_results
-    puts "\n ========== Game Over =========="
+    puts "\n ========== Game Over ==========\n"
 
     for p in @players
       pos = @board.get_space(p.position)
       pos_name = pos.is_a?(Property) ? pos.name : pos
       bank = p.bankrupt ? "YES" : "NO"
 
-      puts "#{p.name} - Money: $#{p.money}, Position: #{pos_name}, Bankrupt: #{bank}"
+      puts "Player : " + p.name.ljust(12) + "| " +
+       "Money : " + "$#{p.money}".rjust(6) + " | " +
+       "Position : " + pos_name.ljust(25) + "| " +
+       "Bankrupt : "+ bank
     end
 
     winner = @players[0]
@@ -141,6 +144,6 @@ class Game
       end
     end
 
-    puts "\n ====== Winer is : #{winner.name} ======"
+    puts "\n ====== Winer is : #{winner.name} ======\n"
   end
 end
