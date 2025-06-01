@@ -64,17 +64,26 @@ class Game
 
     player.position = new_position
 
-    #get the space the player landed on
+     #get the space the player landed on
     current_space = @board.get_space(new_position)
+
+    #print turn results
+    puts "#{player.name} rolled a #{roll}"
+    space_name = current_space.is_a?(Property) ? current_space.name : current_space
+    puts "Landed on : #{space_name}"   
 
     #check what to do based on the type of space
     if current_space.is_a?(Property)
       if current_space.owner == nil
         buy_property(player, current_space)
+        puts "#{player.name} bought #{current_space.name} for $#{current_space.price}"
       elsif current_space.owner != player
         pay_rent(player, current_space)
       end
     end
+
+    puts "Money : $#{player.money}"
+    puts "------------------------"
 
     #to end the game
     if player.money < 0
@@ -100,6 +109,9 @@ class Game
     player.money = player.money - rent
     property.owner.money = property.owner.money + rent
 
+    #print rent details
+    puts "#{player.name} paid $#{rent} in rent to #{property.owner.name} for landing on #{property.name}"
+
     if player.money < 0
       player.bankrupt = true
     end
@@ -124,7 +136,7 @@ class Game
   end
 
   def show_results
-    puts "\n ========== Game Over ==========\n"
+    puts "\n ========== Game Over =========="
 
     for p in @players
       pos = @board.get_space(p.position)
@@ -144,6 +156,6 @@ class Game
       end
     end
 
-    puts "\n ====== Winer is : #{winner.name} ======\n"
+    puts "\n ====== Winner is : #{winner.name} ======"
   end
 end
