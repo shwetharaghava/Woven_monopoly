@@ -33,19 +33,3 @@ Enter 2 for rolls_2.json
 
 ##  Project Structure
 
-
-woven_monopoly/
-├── main.rb            # Entry point - runs the game
-├── data/
-│   ├── board.json     # Board layout
-│   ├── rolls_1.json   # First set of dice rolls
-│   └── rolls_2.json   # Second set of dice rolls
-├── lib/
-│   ├── board.rb       # Loads board data
-│   ├── game.rb        # Main game logic
-│   ├── player.rb      # Player model
-│   └── property.rb    # Property model
-├── README.md          # Project description (you are here!)
-
-
-Made by Shwetha Raghava as a personal learning project.
